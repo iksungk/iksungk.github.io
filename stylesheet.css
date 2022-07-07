@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #66CC66;
+  color: #456347;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #CC66CC;
+  color: #CC8099;
   text-decoration: none;
 }
 
@@ -127,5 +127,5 @@ name {
 }
 
 span.highlight {
-  background-color: #FFCCFF;
+  background-color: #F7DEC2;
 }
