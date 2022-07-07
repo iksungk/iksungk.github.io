@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #FFB3FF;
+  color: #FF958F;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #B3FFB3;
+  color: #6DB7FF;
   text-decoration: none;
 }
 
