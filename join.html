@@ -30,11 +30,14 @@
   }
 
   .content-cell { padding-left:20px; padding-right:20px; }
-  .section-pad { padding:20px 20px 10px 20px; } /* for h2/h3 blocks */
-  .text-pad { padding-left:20px; padding-right:20px; padding-top:5px; padding-bottom:5px; }
+  .section-pad { padding: 12px 20px 4px 20px; }     /* for h2/h3 rows */
+  .text-pad    { padding: 3px 20px; }              /* for body rows */
+  /* h2, h3 { margin: 0; } */
+  /* p { margin: 8px 0; } */
+  /* ol, ul { margin: 6px 0 10px 1.2em; } */
 
-  .research-points { margin: 6px 0 10px 1.2em; }
-  .research-points li { margin: 0.45em 0; line-height: 1.5; }
+  .research-points { padding-left: 1.6em; margin: 6px 0 10px 1.2em; }
+  .research-points li { padding-left: 0.4em; margin: 4px 0; line-height: 1.5; }
 
   .note { margin-top: 6px; }
 </style>
@@ -107,7 +110,7 @@
     <ol class="research-points">
       <li>
         Rather than treating computation purely as post-processing, we aim to intelligently and adaptively control imaging systems, fundamentally improving signal and image quality at the
-        <em>upstream</em> stage—an approach that is particularly well suited for edge applications, where computing resources may be comparatively limited.
+        <em>upstream</em> stage (which is particularly well-suited for edge applications, where computing resources may be comparatively limited.)
       </li>
       <li>
         By rigorously embedding physical principles into computation, we seek to develop ML/AI models that are more physically grounded and practically deployable in scientific laboratories and industrial environments.
